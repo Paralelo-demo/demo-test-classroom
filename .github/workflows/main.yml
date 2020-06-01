@@ -22,6 +22,5 @@ jobs:
     - name: Setup Java JDK 
       uses: actions/setup-java@v1.3.0     
       with:
-        java-version: 11 # The JDK version to make available on the path.
-        java-package: jdk # (jre, jdk, or jdk+fx) - defaults to jdk
-        architecture: x64 # (x64 or x86) - defaults to x64
+        java-version: '12.0.2' # The JDK version to make available on the path.
+    - run: java -version

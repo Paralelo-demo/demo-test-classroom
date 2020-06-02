@@ -10,7 +10,7 @@ public class CalculatorTest {
     @Test
     public void suma() {
         Calculador calc = new Calculador(1, 2);
-        Assertions.assertEquals(4, calc.suma(), "Test suma");
+        Assertions.assertEquals(3, calc.suma(), "Test suma");
     }
 
 }
